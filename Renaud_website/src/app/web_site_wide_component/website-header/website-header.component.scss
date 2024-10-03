@@ -1,0 +1,19 @@
+.container_header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    width: 100vw;
+    justify-content: flex-start;
+    align-content: center;
+    .logo_container{
+        width: 5.25vw;
+        height: 10.1vh;
+        overflow: hidden;
+        img{
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    
+}
