@@ -1,19 +1,37 @@
-.container_header{
+.container_header {
+    // Positionnement absolu en haut à gauche de son conteneur parent
     position: absolute;
     top: 0px;
     left: 0px;
+
+    // Utilisation de flexbox pour l'agencement des éléments enfants
     display: flex;
+
+    // Largeur de 100% de la largeur de la fenêtre
     width: 100vw;
+
+    // Alignement horizontal des éléments enfants au début du conteneur
     justify-content: flex-start;
+
+    // Alignement vertical des éléments enfants au centre
     align-content: center;
-    .logo_container{
-        width: 5.25vw;
-        height: 10.1vh;
+
+    // Styles pour le conteneur du logo
+    .logo_container {
+        // Dimensions du conteneur du logo
+        width: 5.25vw;  // 5.25% de la largeur de la fenêtre
+        height: 10.1vh; // 10.1% de la hauteur de la fenêtre
+
+        // Masque tout contenu qui dépasse du conteneur
         overflow: hidden;
-        img{
+
+        // Styles pour l'image du logo
+        img {
+            // Ajuste la taille de l'image pour couvrir le conteneur
             object-fit: cover;
+
+            // Centre l'image dans son conteneur
             object-position: center;
         }
     }
-    
 }
