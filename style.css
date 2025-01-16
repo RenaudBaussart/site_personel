@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(60, 60, 60);
+}
+
+.skill_card {
+  width: 10vw;
+  height: 10vw;
+  background: rgba(123, 123, 123, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.skill_card figure img {
+  width: 8vw;
+  height: 8vw;
+  display: block;
+  margin: auto;
+}
+.skill_card figure figcaption {
+  display: none;
+}
+
+.box_shadow_neon {
+  -webkit-box-shadow: 5px 5px 41px 8px rgba(255, 255, 255, 0.78), 5px 5px 9px 10px #FFFFFF;
+  box-shadow: 5px 5px 41px 8px rgba(255, 255, 255, 0.78), 5px 5px 9px 10px #FFFFFF;
+}
+
+.box_shadow_neon.blue {
+  -webkit-box-shadow: #5947ff, #1900fb;
+  box-shadow: #5947ff, #1900fb;
+}
+
+.box_shadow_neon.blue {
+  -webkit-box-shadow: rgba(255, 255, 255, 0.78), #FFFFFF;
+  box-shadow: rgba(255, 255, 255, 0.78), #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
